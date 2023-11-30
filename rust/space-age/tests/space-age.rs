@@ -1,6 +1,4 @@
 use space_age::*;
-use duration::Duration;
-use planet_macro::Planet;
 
 fn assert_in_delta(expected: f64, actual: f64) {
     let diff: f64 = (expected - actual).abs();
