@@ -1,0 +1,11 @@
+workspace = { members = [ "duration","planet_macro"] }
+
+[package]
+edition = "2021"
+name = "space-age"
+version = "1.2.0"
+
+[dependencies]
+duration = { path = "./duration"}
+planet_macro = { path = "./planet_macro"}
+planet_macro_derive = { path = "./planet_macro/planet_macro_derive"}
